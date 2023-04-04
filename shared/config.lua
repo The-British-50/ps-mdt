@@ -1,6 +1,6 @@
 Config = Config or {}
 
-Config.UsingDefaultQBApartments = true
+Config.UsingDefaultQBApartments = false
 Config.OnlyShowOnDuty = true
 Config.UseCQCMugshot = true
 
@@ -8,11 +8,11 @@ Config.UseCQCMugshot = true
 Config.MugPhotos = 1
 
 -- Images for mug shots will be uploaded here. Add a Discord webhook. 
-Config.Webhook = ''
+Config.Webhook = 'https://discord.com/api/webhooks/1092931148398727208/6Ggdhe08jb8D9zLcejlWvkTIO_7Ot0azmxCcqJekcUsSLTOlLYqX0yPOnNs6-VMWd8lb'
 
 -- Clock-in notifications for duty. Add a Discord webhook.
 -- Command /mdtleaderboard, will display top players per clock-in hours.
-Config.ClockinWebhook = ''
+Config.ClockinWebhook = 'https://discord.com/api/webhooks/1092931313432014878/rh3_X-PzT8glurj3BH9W9ralAeXK-8I0z4hv1fgoYfJJcPz1eQuYBMSOBkNC6PqIQxer'
 
 -- If set to true = Fine gets automatically removed from bank automatically charging the player.
 -- If set to false = The fine gets sent as an Invoice to their phone and it us to the player to pay for it, can remain unpaid and ignored.
@@ -24,7 +24,7 @@ Config.BillVariation = true
 Config.InventoryForWeaponsImages = "lj-inventory"
 
 -- "LegacyFuel", "lj-fuel", "ps-fuel"
-Config.Fuel = "ps-fuel"
+Config.Fuel = "LegacyFuel"
 
 -- Google Docs Link
 Config.sopLink = {
@@ -54,19 +54,19 @@ Config.RosterLink = {
 
 Config.PoliceJobs = {
     ['police'] = true,
-    ['lspd'] = true,
-    ['bcso'] = true,
-    ['sast'] = true,
-    ['sasp'] = true,
-    ['doc'] = true,
-    ['lssd'] = true,
-    ['sapr'] = true,
-    ['pa'] = true
+    ['lspd'] = false,
+    ['bcso'] = false,
+    ['sast'] = false,
+    ['sasp'] = false,
+    ['doc'] = false,
+    ['lssd'] = false,
+    ['sapr'] = false,
+    ['pa'] = false
 }
 
 Config.AmbulanceJobs = {
     ['ambulance'] = true,
-    ['doctor'] = true
+    ['doctor'] = false
 }
 
 Config.DojJobs = {
@@ -84,7 +84,7 @@ Config.ImpoundLocations = {
 
 -- Support for Wraith ARS 2X. 
 
-Config.UseWolfknightRadar = false
+Config.UseWolfknightRadar = true
 Config.WolfknightNotifyTime = 5000 -- How long the notification displays for in milliseconds (30000 = 30 seconds)
 
 -- IMPORTANT: To avoid making excessive database queries, modify this config to true 'CONFIG.use_sonorancad = true' setting in the configuration file located at 'wk_wars2x/config.lua'. 
