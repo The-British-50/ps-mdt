@@ -28,7 +28,7 @@ Config.Fuel = "LegacyFuel"
 
 -- Google Docs Link
 Config.sopLink = {
-    ['police'] = '',
+    ['police'] = 'https://docs.google.com/document/d/e/2PACX-1vQl_Q1bYSkJyYjDQrwshNYdinyxSoY5-rmS4LBbVWbB5tTLFa-GmxyRH0xnl4WlI97s_hZjJpC79iQt/pub',
     ['ambulance'] = '',
     ['bcso'] = '',
     ['doj'] = '',
