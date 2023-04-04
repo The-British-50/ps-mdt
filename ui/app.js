@@ -3737,8 +3737,8 @@ $(document).ready(() => {
       color8: "#2554cc",
       color9: "#6E707C",
       color10: "#8F741B",
-      image: "img/LSPD.webp",
-      name: "LOS SANTOS POLICE",
+      image: "img/sasp_badge.png",
+      name: "Metropolitan Police",
     },
     bcso: {
       color1: "#333333",
