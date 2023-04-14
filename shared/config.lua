@@ -85,7 +85,7 @@ Config.ImpoundLocations = {
 -- Support for Wraith ARS 2X. 
 
 Config.UseWolfknightRadar = true
-Config.WolfknightNotifyTime = 5000 -- How long the notification displays for in milliseconds (30000 = 30 seconds)
+Config.WolfknightNotifyTime = 10000 -- How long the notification displays for in milliseconds (30000 = 30 seconds)
 
 -- IMPORTANT: To avoid making excessive database queries, modify this config to true 'CONFIG.use_sonorancad = true' setting in the configuration file located at 'wk_wars2x/config.lua'. 
 -- Enabling this setting will limit plate checks to only those vehicles that have been used by a player.
